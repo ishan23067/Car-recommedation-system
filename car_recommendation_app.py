@@ -126,7 +126,7 @@ if st.button("Predict"):
 # Media Content
 st.header("Media")
 st.video("https://www.youtube.com/watch?v=SDvRK7v7q9I")  # Example car video
-st.image("C:/Users/ishan/Downloads/streamlit-20241202T033733Z-001/streamlit/yuvraj-singh-tmAynVA_ihE-unsplash.jpg", caption="For the love of carzzz!")
+st.image("yuvraj-singh-tmAynVA_ihE-unsplash.jpg", caption="For the love of carzzz!")
 
 # Footer
 st.sidebar.info("Built with ❤️ using Streamlit and Machine Learning")
