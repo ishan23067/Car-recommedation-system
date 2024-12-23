@@ -7,10 +7,9 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import r2_score
 from sklearn.preprocessing import StandardScaler
 
-# Load the dataset
 @st.cache_data
 def load_data():
-    return pd.read_csv("C:/Users/ishan/Downloads/streamlit-20241202T033733Z-001/streamlit/USA_cars_datasets.csv")
+    return pd.read_csv("USA_cars_datasets.csv")  # Use the relative path
 
 car_data = load_data()
 
